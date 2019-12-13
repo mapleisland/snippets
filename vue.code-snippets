@@ -1,0 +1,60 @@
+{
+	"vtemplate": {
+		"scope": "vue, html",
+		"prefix": "vtemplate",
+		"body": [
+			"<template>",
+			"  <div class=\"$1\">",
+			"",
+			"  </div>",
+			"</template>",
+		],
+		"description": "vtemplate"
+	},
+	"vmounted": {
+		"scope": "vue, html",
+		"prefix": "vmounted",
+		"body": [
+			"mounted() {",
+			"  this.$nextTick(async () => {",
+			"    $1",
+			"  })",
+			"}",
+		],
+		"description": "vmounted"
+	},
+	"vdata": {
+		"scope": "vue, html",
+		"prefix": "vdata",
+		"body": [
+			"data() {",
+			"  return {",
+			"    $1",
+			"  }",
+			"}",
+		],
+		"description": "vdata"
+	},
+	"vscript": {
+		"scope": "vue, html",
+		"prefix": "vscript",
+		"body": [
+			"<script>",
+			"  export default {",
+			"    name: \"$1\"",
+			"  }",
+			"</script>",
+		],
+		"description": "vscript"
+	},
+	"vfor": {
+		"scope": "vue, html",
+		"prefix": "vfor",
+		"body": [
+			"<li v-for=\"(item, index) of ${1:items}\" :key=\"index\">",
+			"  $2",
+			"</li>",
+		],
+		"description": "vfor"
+	},
+}
