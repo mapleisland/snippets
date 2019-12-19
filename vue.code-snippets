@@ -1,6 +1,27 @@
 {
+	"vinit": {
+		"scope": "vue, html, javascript",
+		"prefix": "vinit",
+		"body": [
+			"<template>",
+			"  <div class=\"new_comnponent\">",
+			"",
+			"  </div>",
+			"</template>",
+			"",
+			"<script>",
+			"  export default {",
+			"    name: \"new_comnponent\"",
+			"  }",
+			"</script>",
+			"",
+			"<style scoped lang=\"scss\">",
+			"  .new_comnponent {}",
+			"</style>",
+		],
+	},
 	"vtemplate": {
-		"scope": "vue, html",
+		"scope": "vue, html, javascript",
 		"prefix": "vtemplate",
 		"body": [
 			"<template>",
@@ -9,10 +30,9 @@
 			"  </div>",
 			"</template>",
 		],
-		"description": "vtemplate"
 	},
 	"vmounted": {
-		"scope": "vue, html",
+		"scope": "vue, html, javascript",
 		"prefix": "vmounted",
 		"body": [
 			"mounted() {",
@@ -21,10 +41,9 @@
 			"  })",
 			"}",
 		],
-		"description": "vmounted"
 	},
 	"vdata": {
-		"scope": "vue, html",
+		"scope": "vue, html, javascript",
 		"prefix": "vdata",
 		"body": [
 			"data() {",
@@ -33,10 +52,9 @@
 			"  }",
 			"}",
 		],
-		"description": "vdata"
 	},
 	"vscript": {
-		"scope": "vue, html",
+		"scope": "vue, html, javascript",
 		"prefix": "vscript",
 		"body": [
 			"<script>",
@@ -45,16 +63,23 @@
 			"  }",
 			"</script>",
 		],
-		"description": "vscript"
+	},
+	"vstyle": {
+		"scope": "vue, html, javascript",
+		"prefix": "vstyle",
+		"body": [
+			"<style scoped lang=\"scss\">",
+			"  $1",
+			"</style>",
+		],
 	},
 	"vfor": {
-		"scope": "vue, html",
+		"scope": "vue, html, javascript",
 		"prefix": "vfor",
 		"body": [
 			"<li v-for=\"(item, index) of ${1:items}\" :key=\"index\">",
 			"  $2",
 			"</li>",
 		],
-		"description": "vfor"
 	},
 }
