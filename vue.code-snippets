@@ -73,6 +73,33 @@
 			"</style>",
 		],
 	},
+	"vcomponents": {
+		"scope": "vue, html, javascript",
+		"prefix": "vcomponents",
+		"body": [
+			"components: {",
+			"  $1",
+			"}",
+		],
+	},
+	"vwatch": {
+		"scope": "vue, html, javascript",
+		"prefix": "vwatch",
+		"body": [
+			"watch: {",
+			"  $1",
+			"}",
+		],
+	},
+	"vcomputed": {
+		"scope": "vue, html, javascript",
+		"prefix": "vcomputed",
+		"body": [
+			"computed: {",
+			"  $1",
+			"}",
+		],
+	},
 	"vfor": {
 		"scope": "vue, html, javascript",
 		"prefix": "vfor",
