@@ -100,6 +100,13 @@
 			"}",
 		],
 	},
+	"vprops": {
+		"scope": "vue, html, javascript",
+		"prefix": "vprops",
+		"body": [
+			"props: [\"$1\"]",
+		],
+	},
 	"vfor": {
 		"scope": "vue, html, javascript",
 		"prefix": "vfor",
