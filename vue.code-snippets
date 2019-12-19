@@ -42,6 +42,15 @@
 			"}",
 		],
 	},
+	"vdestroyed": {
+		"scope": "vue, html, javascript",
+		"prefix": "vdestroyed",
+		"body": [
+			"destroyed() {",
+			"  ",
+			"}",
+		],
+	},
 	"vdata": {
 		"scope": "vue, html, javascript",
 		"prefix": "vdata",
